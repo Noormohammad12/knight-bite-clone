@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.header{
+    
+    border: none;
+    background-color: #0000001F;
+    height: 112px;
+    width: 100%;
+}
+
+.logo{
+    background-color: #0000001F;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.logo_image{
+    height: 88px;
+    width: 168.5;
+    
+    margin-top: 10px;
+    margin-left: 80px;
+    padding-right: 100px;
+    
+    position: fixed;
+}
+.header_details {
+    height: 88px;
+    
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 10px;
+    margin-left: 600px;
+    gap: 0.1px;
+    
+}
+.icons{
+    color: aliceblue;
+    align-content: center;
+    font-family: nunito;
+    margin-left: 100px;
+    text-decoration: none;
+    
+    
+}
+.background_image_beginning{
+    background-image: url("./images/app-link-background\ \(1\).png");
+    height: 552px;
+    width: 1014;
+    background-size: cover;
+    background-attachment:scroll ;
+}
+.delicius {
+    position: absolute;
+    top: 18%;
+}
+
+.delicius {
+    margin-top: 100px;
+    font-size: 80px;
+    color: white;
+    font-weight: 5000;
+    font-family: nicotineregular;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 20px;
+}
+
+.img{
+    background-size: contain;
+    
+}
+.button1 a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #ff5672;
+    padding-left: 40px;
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    
+    border-radius: 10px;
+    
+}
+.or{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    color: #fff;
+}
+.play_store {
+    height: 70px;
+    width: 100;
+    
+   display: flex;
+   align-items: center;
+    position: absolute;
+    top:450px;
+    gap: 30px;
+    margin-left: 400px;
+    
+}
+.play3{
+    height: 87px;
+    width: 100;
+}
+
+.play1,.play2{
+    transition: transform 0.3s ease-in-out;
+}
+
+.play1:hover, .play2:hover {
+    transform: scale(0.9); /* Reduces the size slightly when hovered */
+}
+
+
+.features-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e0e0e0; /* light gray background */
+}
+
+.features-section h2 {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feature-item {
+  max-width: 160px;
+}
+
+.feature-item img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.9;
+}
+
+.enjoy_food,.burger{
+    background-image: url(./images/banner-1\ \(1\).png);
+    background-size: cover;
+    height: 1050px;
+    width: 100%;
+}
+#food1,#burger1{
+    height: 198px;
+    color: #ffffff; 
+    text-align: center;
+    padding-top: 30px;
+    font-size: 100px; /* Increased text size */
+    font-family: 'Arial', sans-serif; 
+    font-weight: 1000;
+    position: relative;
+    top:40%;  
+}
+
+.burger{
+    background-image: url("./images/banner-2\ \(1\).png");
+    
+}
+#burger1{
+    line-height: 0.9;  
+}
+.burger .menu{
+    height: 50px;
+    width: 210px;
+    color: black;
+    border: 3px solid rgb(245, 241, 241);
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+
+.connect{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+
+.footer {
+  background: linear-gradient(to right, #d084f7, #fa4e6d);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-top, .footer-mid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.footer-column {
+  flex: 1 1 30%;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.footer-column p, .footer-column address, .footer-column li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li::before {
+  content: "• ";
+  color: #ff3f6c;
+}
+
+.footer-column ul li a {
+  color: #ff3f6c;
+  text-decoration: none;
+}
+
+.subscribe {
+  display: flex;
+  margin-top: 10px;
+}
+
+.subscribe input {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 30px 0 0 30px;
+}
+
+.send-btn {
+  background-color: #c56cf0;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  color: white;
+  font-size: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #a45de3;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.social-icons img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  
+  background-image: linear-gradient(to right,rgb(185, 11, 174),orange,);
+  color: #444;
+  font-size: 0.9rem;
+}
+
+
+
+
+
